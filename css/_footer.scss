@@ -1,0 +1,28 @@
+footer{
+    grid-area: footer;
+    padding: 70px;
+    background-color: black;
+    color: white;
+    display: inline;
+    
+}
+
+footer p {
+    text-align: center;
+    padding: 15px;
+}
+
+#seccion-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+p a {
+    color: white;
+    &:hover{
+        color: #d7dfc3;
+    }
+}
+
